@@ -9,6 +9,11 @@ jobs:
     name: Get Downstream Assets
     runs-on: ubuntu-latest
     steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
       - name: Run Action
         uses: atlanhq/dbt-action@v1-alpha
         with:
