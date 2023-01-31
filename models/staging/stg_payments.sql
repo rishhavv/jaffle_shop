@@ -1,3 +1,4 @@
+{{ config(alias='fct_orders', schema='google_analytics') }}
 with source as (
     
     {#-
