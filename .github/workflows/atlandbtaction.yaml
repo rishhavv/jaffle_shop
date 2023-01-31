@@ -6,6 +6,7 @@ on:
 
 jobs:
   get-downstream-impact:
+    permissions: write-all
     name: Get Downstream Assets
     runs-on: ubuntu-latest
     steps:
