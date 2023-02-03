@@ -1,3 +1,5 @@
+{{ config(alias='fct_orders', schema='google_analytics') }}
+
 with customers as (
 
     select * from {{ ref('stg_customers') }}

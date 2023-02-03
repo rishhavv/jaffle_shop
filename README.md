@@ -2,6 +2,11 @@
 
 `jaffle_shop` is a fictional ecommerce store. This dbt project transforms raw data from an app database into a customers and orders model ready for analytics.
 
+
+asdasdasd
+
+asdasd
+
 ### What is this repo?
 What this repo _is_:
 - A self-contained playground dbt project, useful for testing out scripts, and communicating some of the core dbt concepts.
